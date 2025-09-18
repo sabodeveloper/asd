@@ -1,0 +1,19 @@
+{
+  "name": "multi-collection-nft-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Multi-Collection NFT Owner Tracking API",
+  "main": "multi.js",
+  "scripts": {
+    "start": "node multi.js",
+    "dev": "node --watch multi.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "viem": "^1.19.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
